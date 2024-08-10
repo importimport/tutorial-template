@@ -1,22 +1,42 @@
-Welcome to Lumache's documentation!
-===================================
+.. wtai-dt documentation master file, created by
+   hnust on Thu Mar 26 20:25:17 2024.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
 
-.. note::
+.. include:: ../README.rst
+   :start-after: comment
+   :end-before: Documentation
 
-   This project is under active development.
-
-Contents
---------
 
 .. toctree::
+   :caption: User Guide
+   :maxdepth: 2
 
-   usage
-   api
+   user_guide
+
+.. toctree::
+   :caption: API
+   :maxdepth: 2
+
+   wtai-dt.dataprocess
+   wtai-dt.dataplot
+   wtai-dt.datareport
+   wtai-dt.LLM
+   wtai-dt.ErrorAnalysis
+   wtai-dt.GeneratorPerformanceAnalysis
+   wtai-dt.PowerGenerationStatistics
+   wtai-dt.YawAnalysis
+   wtai-dt.Report
+
+Github Page
+===========
+Can be found at https://github.com/importimport/wtai-dt.
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
